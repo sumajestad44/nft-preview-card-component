@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-items: center;
+    background-color: var(--main-bg);
+}
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+.nft-card {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    background-color: var(--card-bg);
+    align-items: center;
+    margin: 100px;
+    border-radius: 1em;
+}
+
+
+
+.nft-image-container {
+    cursor: pointer;
+}
+
+.nft-image-container .nft-image {
+    margin-top: 20px;
+    border-radius: 1em;
+    max-width: 260px;
+    max-height: 420px;
+}
+.nft-image-container .icon-view{
+    margin-top: 20px;
+    border-radius: 1em;
+    max-width: 260px;
+    max-height: 420px;
+    top: 15%;
+}
+
+.img-overlay:hover .icon-view{
+    opacity: 1;
+    background-color: hsla(178, 100%, 50%, 0.49);
+}
+.icon-view{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 7rem;
+    opacity: 0;
+    background-color:hsla(178, 100%, 50%, 0.49);
+    transition: opacity 0.4s ease-in-out;
+}
+
+
+
+
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.text-container h3 {
+    color: var(--white);
+}
+.text-container h3:hover{
+    cursor: pointer;
+    color: var(--cyan);
+}
+.text-container p {
+    color: var(--soft-blue);
+
+}
+
+.text-container .price-time {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.text-container .price-time img{
+    padding-right: 5px;
+}
+
+.text-container h4 {
+    color: var(--cyan);
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--line);
+}
+
+.credits {
+    display: flex;
+    margin: 5px;
+}
+.credits span:hover{
+    cursor: pointer;
+    color: var(--cyan);
+}
+.credits img {
+    margin-right: 15px;
+    max-width: 30px;
+    max-height: 40px;
+
+}
+.credits p{
+    align-self: center;
+}
+.attribution{
+    margin: 20px;
+    color: var(--white);
+}
