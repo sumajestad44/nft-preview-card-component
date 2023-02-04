@@ -9,7 +9,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
   - [Built with](#built-with)
   - [Author](#author)
-
+  - [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
@@ -37,7 +37,9 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
+## Acknowledgments
 
+I want to give a special thanks to [@viniciusshenri96](https://www.frontendmentor.io/profile/viniciusshenri96) and [@vcarames](https://www.frontendmentor.io/profile/vcarames)for helping me and teaching me very useful things to improve my code
 
 
 
